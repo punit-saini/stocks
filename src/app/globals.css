@@ -25,3 +25,26 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+
+table {
+  border: 1px solid black;
+  border-radius : 4px;
+  width: 100%;
+}
+th {
+  font-weight: bold;
+  padding: 10px;
+}
+td {
+  padding: 10px;
+}
+td:hover {
+  background-color: lightgray;
+}
+td.positive {
+  color: green;
+}
+td.negative {
+  color: red;
+}
