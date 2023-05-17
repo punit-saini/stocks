@@ -1,23 +1,13 @@
-"use client";
-import { useEffect, useState } from 'react';
 import StockTable from '../../components/StockTable';
-import axios from 'axios';
-
-
-
 
 export default function Home() {
-
-
   return (
-    <main className="min-h-screen items-center p-24">
-      <div className="z-10 w-full">
- 
-        <h1>Hell, uncle namaste chalo kaam ki baat pe aate hain.</h1>
-        
-        <StockTable />
+    <main className="min-h-screen flex items-center justify-center bg-slate-200 lg:p-15 md:p-10 sm:p-4">
+      <div id='main-container' className="w-full mx-auto bg-white rounded-lg shadow-xl p-8">
+        <h1 className="text-4xl font-bold text-center mb-6">Stocks Data</h1>
+        <StockTable
+         />
       </div>
     </main>
   );
 }
-

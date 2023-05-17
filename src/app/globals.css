@@ -48,3 +48,22 @@ td.positive {
 td.negative {
   color: red;
 }
+
+select {
+   /* Remove the outline */
+   /* Remove the default arrow icon in Firefox */
+  /* Remove the default arrow icon in other browsers */
+   /* Set the background color as transparent */
+  color: inherit; /* Inherit the color from parent */
+  outline:  none;
+  /* Adjust the padding as needed */
+  font-size: inherit; /* Inherit the font size from parent */
+}
+
+
+
+
+#main-container {
+  width: 95%;
+}
+
