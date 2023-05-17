@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import Chart from 'react-apexcharts';
+import dynamic from 'next/dynamic';
+const ApexCharts = dynamic(() => import('react-apexcharts'), { ssr: false });
+
 
 const ChartSyntax = ({ content, modalIsOpen, setModalIsOpen }) => {
   const API_KEY = process.env.NEXT_PUBLIC_API_KEY;
@@ -86,7 +88,7 @@ const ChartSyntax = ({ content, modalIsOpen, setModalIsOpen }) => {
           </div>
 
           <div className="w-11/12 mx-auto">
-            <Chart
+            <ApexCharts
               type="candlestick"
               options={{
                 chart: { id: 'candles' },
