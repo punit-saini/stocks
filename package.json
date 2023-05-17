@@ -12,7 +12,6 @@
     "@fortawesome/free-solid-svg-icons": "^6.4.0",
     "@fortawesome/react-fontawesome": "github:fortawesome/react-fontawesome",
     "@headlessui/react": "^1.7.14",
-    "apexcharts": "^3.40.0",
     "autoprefixer": "10.4.14",
     "axios": "^1.4.0",
     "eslint": "8.40.0",
@@ -21,10 +20,11 @@
     "next": "13.4.2",
     "postcss": "8.4.23",
     "react": "18.2.0",
-    "react-apexcharts": "^1.4.0",
     "react-data-table-component": "^7.5.3",
     "react-dom": "18.2.0",
     "react-modal": "^3.16.1",
     "tailwindcss": "3.3.2"
   }
 }
+
+  

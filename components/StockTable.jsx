@@ -3,9 +3,6 @@ import React, { useState, useEffect, Fragment, useRef } from 'react';
 import axios from 'axios';
 import DataTable from 'react-data-table-component';
 import usStockSymbols from '../usStockSymbols';
-import { Dialog, Transition } from '@headlessui/react'
-import { useRouter } from 'next/router'
-import styled, { keyframes } from 'styled-components';
 import Modal from 'react-modal';
 import ChartSyntax from './chart';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -410,5 +407,6 @@ const formatPercentChangeColor = (value) => {
 </>
 );
 };
+
 
 export default StockTable;
